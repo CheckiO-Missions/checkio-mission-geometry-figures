@@ -1,0 +1,16 @@
+class Figure:
+    def __init__(self, name, *args):
+        raise NotImplementedError
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    def json_dict(d):
+        return dict((k, list(v)) for k, v in d.items())
+
+    assert Figure("circle", 10).area() == 314.16
+    assert Figure("triangle", 3, 4, 5).volume() == 0
+    assert Figure("rectangle", 1.5, 2.5).area() == 3.75
+    assert Figure("pentagon", 500).perimeter() == 2500
+    assert Figure("hexagon", 100.003).perimeter() == 600.02
+    assert Figure("cube", 20).volume() == 8000
+    print("Coding complete? Let's try tests!")
