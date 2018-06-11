@@ -4,8 +4,6 @@ class Figure:
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    def json_dict(d):
-        return dict((k, list(v)) for k, v in d.items())
 
     assert Figure("circle", 10).area() == 314.16
     assert Figure("triangle", 3, 4, 5).volume() == 0
