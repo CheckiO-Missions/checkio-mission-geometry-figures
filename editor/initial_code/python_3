@@ -1,14 +1,46 @@
-class Figure:
-    def __init__(self, name, *args):
-        raise NotImplementedError
+class Parameters:
+    pass
+
+class Circle:
+    pass
+
+class Triangle:
+    pass
+
+class Square:
+    pass
+
+class Pentagon:
+    pass
+
+class Hexagon:
+    pass
+
+class Cube:
+    pass
+
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
 
-    assert Figure("circle", 10).area() == 314.16
-    assert Figure("triangle", 3, 4, 5).volume() == 0
-    assert Figure("rectangle", 1.5, 2.5).area() == 3.75
-    assert Figure("pentagon", 500).perimeter() == 2500
-    assert Figure("hexagon", 100.003).perimeter() == 600.02
-    assert Figure("cube", 20).volume() == 8000
+    figure = Parameters(10)
+    
+    figure.choose_figure(Circle())
+    assert figure.area() == 314.16
+
+    figure.choose_figure(Triangle())
+    assert figure.perimeter() == 30
+
+    figure.choose_figure(Square())
+    assert figure.area() == 100
+
+    figure.choose_figure(Pentagon())
+    assert figure.perimeter() == 50
+
+    figure.choose_figure(Hexagon())
+    assert figure.perimeter() == 60
+
+    figure.choose_figure(Cube())
+    assert figure.volume() == 1000
+
     print("Coding complete? Let's try tests!")

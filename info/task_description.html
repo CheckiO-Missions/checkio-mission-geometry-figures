@@ -1,54 +1,43 @@
-<style>
-    pre.example {
-        border: 1px solid #aaa;
-        border-radius: 3px;
-        background: #eee;
-        margin-left: 20px;
-        padding: 5px;
-        overflow: auto;
-    }
-
-    p.indent {
-        margin-left: 20px;
-    }
-</style>
-
 <p>
-You often work with the different geometrical figures and with their parameters - perimeter, area, volume. You are tired to do this by hand, so you have decided to automate this process. You should write the program for this. In this program you should create the class Figure with some methods:<br>
+You often work with the different geometrical figures and with their parameters - perimeter, area, volume. You are tired to do this by hand, so you have decided to automate this process. You should write the program for this. In this program you should create the class Parameters which will choose one of the few figures (circle, right triangle, square, right pentagon, right hexagon, cube) using method <strong>choose_figure()</strong> and will count the perimeter, area and volume using those methods:<br>
 <br>
-<strong>Figure().perimeter()</strong> (returns the perimeter of the figure)<br>
-<strong>Figure().area()</strong> (returns the area of the figure)<br>
-<strong>Figure().volume()</strong> (returns the volume of the figure)<br>
+<strong>perimeter()</strong> - returns the perimeter of the figure<br>
+<strong>area()</strong> - returns the area of the figure<br>
+<strong>volume()</strong> - returns the volume of the figure<br>
 <br>
-You will work with this figures:<br>
-"circle" --> Figure("circle", R), where R is the radius of the circle ( 0.1 <= R <= 1000.0)<br>
-"triangle" --> Figure("triangle", a, b, c), where 'a, b, c' are the sides of the triangle ( 0.1 <= a, b, c <= 1000.0)<br>
-"rectangle" --> Figure("rectangle", a, b), where 'a, b' are the sides of the rectangle ( 0.1 <= a, b <= 1000.0)<br>
-"pentagon" --> Figure("pentagon", a), where 'a' is the side of the equal sided pentagon ( 0.1 <= a <= 1000.0)<br>
-"hexagon" --> Figure("hexagon", a), where 'a' is side of the equal sided hexagon ( 0.1 <= a <= 1000.0)<br>
-"cube" --> Figure("circle", a), where 'a' is the side of the cube ( 0.1 <= a <= 1000.0)<br>
-<br>
+Also you have to create a class for each figure and use <a href='https://en.wikipedia.org/wiki/Strategy_pattern'>Strategy</a> design pattern to solve this mission.<br>
 Every figure except cube has volume = 0.<br>
-If the result has no decimal part you should return it as int(), in the other case - round it to 2 decimal sign.<br>
-
-In this mission you can use the <a href='https://en.wikipedia.org/wiki/Strategy_pattern'>Strategy</a> design pattern.
+If the result has no decimal part you should return it as int(), in the other case - round it to 2 decimal sign.
 </p>
 
 <p>
 <strong>Examples</strong>:
 <pre class="brush: python">
-Figure("circle", 10).area() == 314.16
-Figure("triangle", 3, 4, 5).volume() == 0
-Figure("rectangle", 1.5, 2.5).area() == 3.75
-Figure("pentagon", 500).perimeter() == 2500
-Figure("hexagon", 100.003).perimeter() == 600.02
-Figure("cube", 20).volume() == 8000
+figure = Parameters(10)
+    
+figure.choose_figure(Circle())
+figure.area() == 314.16
+
+figure.choose_figure(Triangle())
+figure.perimeter() == 30
+
+figure.choose_figure(Square())
+figure.area() == 100
+
+figure.choose_figure(Pentagon())
+figure.perimeter() == 50
+
+figure.choose_figure(Hexagon())
+figure.perimeter() == 60
+
+figure.choose_figure(Cube())
+figure.volume() == 1000
 </pre>
 </p>
 <br>
 
 <p>
-    <strong>Input: </strong>Statements and expression of the class Figure.
+    <strong>Input: </strong>Statements and expression of the classes.
 </p>
 
 <p>
