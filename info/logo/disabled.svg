@@ -1,15 +1,224 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128" height="128" viewBox="0, 0, 128, 128">
-  <g id="Background">
-    <rect x="0" y="0" width="128" height="128" fill="#000000" fill-opacity="0"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg3516"
+   viewBox="0, 0, 128, 128"
+   height="128"
+   width="128"
+   y="0px"
+   x="0px"
+   version="1.1">
+  <metadata
+     id="metadata3520">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="Background">
+    <rect
+       id="rect3499"
+       fill-opacity="0"
+       fill="#000000"
+       height="128"
+       width="128"
+       y="0"
+       x="0" />
   </g>
-  <g id="Background">
-    <path d="M18.092,6 L109.903,6 C116.552,6 122,11.441 122,18.096 L122,109.902 C122,116.559 116.552,122 109.903,122 L18.092,122 C11.436,122 6,116.559 6,109.902 L6,18.096 C6,11.441 11.436,6 18.092,6" fill="#737370"/>
-    <path d="M34.155,72.093 L34.168,72.093 C40.04,65.96 49.809,65.796 55.871,71.784 L71.041,86.745 C71.578,83.846 72.934,81.057 75.096,78.813 L75.096,78.801 C80.974,72.664 90.737,72.503 96.805,78.476 L122,103.318 L122,109.902 C122,116.559 116.635,122 110.083,122 L62.726,122 L34.472,94.133 C28.417,88.172 28.275,78.256 34.155,72.093" fill="#EBEDED"/>
-    <path d="M40.706,68.809 C40.498,69.244 40.254,69.701 39.986,70.123 C36.468,75.777 29.106,77.438 23.545,73.892 C17.99,70.297 16.328,62.848 19.846,57.182 C20.119,56.772 20.406,56.341 20.724,55.953 z" fill="#EBEDED"/>
-    <path d="M22.635,52.768 L43.02,65.858 L48.68,56.771 L28.3,43.683 z" fill="#EBEDED"/>
-    <path d="M80.328,6 L50.688,53.539 L30.314,40.447 L51.787,6 z" fill="#EBEDED"/>
+  <g
+     id="g3512">
+    <path
+       id="path3502"
+       fill="#737370"
+       d="M18.092,6 L109.903,6 C116.552,6 122,11.441 122,18.096 L122,109.902 C122,116.559 116.552,122 109.903,122 L18.092,122 C11.436,122 6,116.559 6,109.902 L6,18.096 C6,11.441 11.436,6 18.092,6" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4428"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4426">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4424"
+           points="26.8,140.991 26.8,371.008 139.3,306.055 139.3,205.943 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4434"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4432">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4430"
+           points="169.3,223.264 169.3,306.056 241,347.452 241,264.66 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4440"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4438">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4436"
+           points="154.299,332.036 41.799,396.989 241,512 241,382.093 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4446"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4444">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4442"
+           points="271,264.66 271,347.452 342.7,306.056 342.7,223.264 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4452"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4450">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4448"
+           points="372.7,205.943 372.7,306.055 485.2,371.008 485.2,140.991 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4458"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4456">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4454"
+           points="357.7,332.036 271,382.093 271,512 470.201,396.989 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4464"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4462">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4460"
+           points="271,0 271,129.907 357.7,179.963 470.2,115.011 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4470"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4468">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4466"
+           points="41.8,115.011 154.3,179.963 241,129.907 241,0 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4476"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)">
+      <g
+         style="fill:#ebeded;fill-opacity:1"
+         id="g4474">
+        <polygon
+           style="fill:#ebeded;fill-opacity:1"
+           id="polygon4472"
+           points="256,155.888 184.3,197.284 256,238.68 327.7,197.284 " />
+      </g>
+    </g>
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4478"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4480"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4482"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4484"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4486"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4488"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4490"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4492"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4494"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4496"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4498"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4500"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4502"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4504"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
+    <g
+       style="fill:#ebeded;fill-opacity:1"
+       id="g4506"
+       transform="matrix(0.22,0,0,0.22,7.4088128,7.680002)" />
   </g>
-  <defs/>
+  <defs
+     id="defs3514" />
 </svg>

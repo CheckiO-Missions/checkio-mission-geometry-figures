@@ -48,7 +48,7 @@ def prepare_test(test="", answer=None, middle_code="", show_code=None):
 
 TESTS = {
     "Circle": [
-        prepare_test(middle_code = '''figure = Parameters(10)
+        prepare_test(middle_code = '''figure = Parameters(1)
 figure.choose_figure(Circle())''',
                      test="figure.perimeter()",
                      answer=6.28),
