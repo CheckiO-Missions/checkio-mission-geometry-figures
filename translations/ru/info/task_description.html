@@ -18,22 +18,22 @@
 figure = Parameters(10)
     
 figure.choose_figure(Circle())
-figure.area() == 314.16
+assert figure.area() == 314.16
 
 figure.choose_figure(Triangle())
-figure.perimeter() == 30
+assert figure.perimeter() == 30
 
 figure.choose_figure(Square())
-figure.area() == 100
+assert figure.area() == 100
 
 figure.choose_figure(Pentagon())
-figure.perimeter() == 50
+assert figure.perimeter() == 50
 
 figure.choose_figure(Hexagon())
-figure.perimeter() == 60
+assert figure.perimeter() == 60
 
 figure.choose_figure(Cube())
-figure.volume() == 1000
+assert figure.volume() == 1000
 </pre>
 </p>
 <br>
